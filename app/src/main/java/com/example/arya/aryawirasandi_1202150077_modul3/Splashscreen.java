@@ -19,7 +19,7 @@ public class Splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                //berpindah dari splashscreen ke menu utama
+                //berpindah dari splashscreen ke menulist utama
                 startActivity(new Intent(Splashscreen.this, Login.class));
                 //menampilkan toast
                 Toast.makeText(Splashscreen.this, "WELCOME", Toast.LENGTH_SHORT).show();

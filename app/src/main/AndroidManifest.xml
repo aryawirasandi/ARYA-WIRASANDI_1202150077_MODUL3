@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".Daftarmenu"></activity>
+        <activity android:name=".Daftarmenu" />
+        <activity android:name=".DetailAir"></activity>
     </application>
 
 </manifest>
